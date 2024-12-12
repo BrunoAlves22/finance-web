@@ -32,9 +32,11 @@ O Finance Web é uma plataforma de gestão financeira para monitorar suas movime
 
 - **Sistema de Exclusão de Transação:** Fornece a capacidade de excluir as transações no banco de dados, removendo-os do sistema quando necessário.
 
-- **Banco de Dados feito com Postgres e Prisma:** Utiliza o Postgres como banco de dados para armazenar e gerenciar os dados das transações.
+- **Banco de Dados feito com PostgreSQL e Prisma:** Utiliza o Postgres como banco de dados para armazenar e gerenciar os dados das transações.
   
 - **Dark Mode:** Feito com o TailwindCSS.
+  
+- **Back End feito com NodeJS e Fastify** 
 
 ## Páginas
 
