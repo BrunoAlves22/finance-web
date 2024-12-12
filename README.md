@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Finance Web - Site de Finanças
 
-## Getting Started
+O Finance Web é uma plataforma de gestão financeira para monitorar suas movimentações, facilitando o controle do seu orçamento.
 
-First, run the development server:
+![REACT](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TYPESCRIPT](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TAILWIND](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Next.js](https://nextjs.org)
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Zustand](https://github.com/pmndrs/zustand)
+- [React Query](https://react-query.tanstack.com)
+- [Clerk](https://clerk.dev)
+- [Axios](https://axios-http.com)
+- [Radix UI](https://www.radix-ui.com)
+- [Recharts](https://recharts.org)
+- [Sonner](https://sonner.dev)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Funcionalidades
 
-## Learn More
+- **Sistema de Login usando o Clerk:** Os usuários podem fazer login utilizando o Clerk, garantindo segurança e autenticação no sistema.
 
-To learn more about Next.js, take a look at the following resources:
+- **Sistema de Cadastro de Transação:** Permite aos usuários cadastrar novas transações.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Sistema de Edição de Transação:** Os usuários podem editar as informações das transações.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Sistema de Exclusão de Transação:** Fornece a capacidade de excluir as transações no banco de dados, removendo-os do sistema quando necessário.
 
-## Deploy on Vercel
+- **Banco de Dados feito com Postgres e Prisma:** Utiliza o Postgres como banco de dados para armazenar e gerenciar os dados das transações.
+  
+- **Dark Mode:** Feito com o TailwindCSS.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Páginas
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Login**
+- **Dashboard**
+- **Transação**
+
+## Finance Web
+![Finance web light](https://github.com/user-attachments/assets/72f82d87-1b2b-474d-ae6a-e2e6281d625c)
+
+![Finance web dark](https://github.com/user-attachments/assets/ce895ad9-ef5c-4b3d-869d-c0004e3f428b)
