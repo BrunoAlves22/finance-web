@@ -1,10 +1,10 @@
 "use client";
 
+import { useDashboardData } from "@/hooks/transactions-hook";
 import { ExpensesPerCategory } from "./expenses-per-category";
 import { LastTransactions } from "./last-transactions";
 import { SummaryCards } from "./summary-cards";
 import { TransactionsPieChart } from "./transactions-pie-chart";
-import { useDashboardData } from "@/hooks";
 
 interface DashboardComponentsProps {
   searchParams: {

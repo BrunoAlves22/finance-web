@@ -1,5 +1,8 @@
 import { Button } from "./ui/button";
-import { useCreateTransaction, useUpdateTransaction } from "@/hooks";
+import {
+  useCreateTransaction,
+  useUpdateTransaction,
+} from "@/hooks/transactions-hook";
 import {
   Dialog,
   DialogClose,

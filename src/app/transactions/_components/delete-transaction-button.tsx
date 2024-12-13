@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { TrashIcon } from "lucide-react";
-import { useDeleteTransaction } from "@/hooks";
 import { toast } from "sonner";
 import {
   AlertDialogHeader,
@@ -15,6 +14,7 @@ import {
   AlertDialogCancel,
   AlertDialogAction,
 } from "@/components/ui/alert-dialog";
+import { useDeleteTransaction } from "@/hooks/transactions-hook";
 
 interface DeleteTransactionButtonProps {
   transactionId: string;

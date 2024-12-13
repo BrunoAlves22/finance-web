@@ -50,12 +50,18 @@ function translateTransaction(
 }
 
 // Hook para buscar transações
-export function useTransactions() {
+export function useTransactions(
+  orderBy: string,
+  orderDirection: "asc" | "desc",
+  transactionType: string,
+) {
   return useQuery<Transaction[]>({
-    queryKey: ["transactions"],
+    queryKey: ["transactions", orderBy, orderDirection, transactionType],
     queryFn: async () => {
       const api = await apiAxios();
-      const response = await api.get("/get-transactions");
+      const response = await api.get("/get-transactions", {
+        params: { orderBy, orderDirection, transactionType },
+      });
       return response.data;
     },
   });

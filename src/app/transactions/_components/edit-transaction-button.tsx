@@ -8,7 +8,7 @@ import {
   EnumTransactionPaymentMethod,
 } from "@/types/transactions-types";
 import { UpsertTransactionDialog } from "@/components/upsert-transaction-dialog";
-import { useInfoTransaction } from "@/hooks";
+import { useInfoTransaction } from "@/hooks/transactions-hook";
 
 interface EditTransactionButtonProps {
   transaction: Transaction;
